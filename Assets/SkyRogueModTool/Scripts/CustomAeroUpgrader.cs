@@ -3,6 +3,13 @@ using System.Collections.Generic;
 
 namespace SkyRogueModTool
 {
+    [RequireComponent(typeof(CustomAirfoil))]
+    public class CustomAeroUpgrader : CustomUpgrader
+    {
+        //[EnumList(typeof(UpgradeLevels))]
+        public List<CustomAeroData> aeroUpgradeStats;
+    }
+
     [System.Serializable]
     public class CustomAeroData
     {
@@ -13,9 +20,4 @@ namespace SkyRogueModTool
         public int hitPoints;
     }
 
-    public class CustomAeroUpgrader : CustomUpgrader
-    {
-        //[EnumList(typeof(UpgradeLevels))]
-        public List<CustomAeroData> aeroUpgradeStats;
-    }
 }
