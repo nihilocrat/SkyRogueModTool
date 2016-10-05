@@ -21,18 +21,15 @@ public enum GuidanceAspect
     Both
 }
 
-namespace SkyRogueModTool
+public class CustomGuidedMissile : MonoBehaviour
 {
-    public class CustomGuidedMissile : MonoBehaviour
-    {
-        public GuidanceMethod guidance = GuidanceMethod.FireAndForget;
-        public GuidanceAspect aspect = GuidanceAspect.Both;
-        public float maxTurnSpeed = 1.0f;
-        public float turnWarmupTime = 0.0f;
-        public float targettingCone = 30.0f;
-        public float lockOnSpeed = 30.0f;
-        public float wander = 0.0f;
-        public bool autoLock = false;                   // missiles automatically lock on to the closest target, necessary for MIRVs
-        public bool dontKillWhenLostTarget = false;     // important for guided bombs
-    }
+    public GuidanceMethod guidance = GuidanceMethod.FireAndForget;
+    public GuidanceAspect aspect = GuidanceAspect.Both;
+    public float maxTurnSpeed = 1.0f;
+    public float turnWarmupTime = 0.0f;
+    public float targettingCone = 30.0f;
+    public float lockOnSpeed = 30.0f;
+    public float wander = 0.0f;
+    public bool autoLock = false;                   // missiles automatically lock on to the closest target, necessary for MIRVs
+    public bool dontKillWhenLostTarget = false;     // important for guided bombs
 }

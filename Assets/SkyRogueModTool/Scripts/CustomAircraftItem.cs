@@ -22,14 +22,11 @@ public enum AircraftClass
 	Utility
 }
 
-namespace SkyRogueModTool
+public class CustomAircraftItem : MonoBehaviour
 {
-    public class CustomAircraftItem : MonoBehaviour
-    {
-        public int cost = 100;
-        public AircraftSlot slot = AircraftSlot.Any;
-        public AircraftClass classRestriction = AircraftClass.Any;
-        public int payload = 0;
-        public int avionics = 0;
-    }
+	public int cost = 100;
+	public AircraftSlot slot = AircraftSlot.Any;
+	public AircraftClass classRestriction = AircraftClass.Any;
+	public int payload = 0;
+	public int avionics = 0;
 }
