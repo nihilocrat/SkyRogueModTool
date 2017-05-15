@@ -1,4 +1,5 @@
 {
+	"starting_up" : "Starting up...",
 	"press_start" : "press SPACEBAR or (A) BUTTON",
 	"do_not_distribute" : "DO NOT DISTRIBUTE",
 	"copyright" : "ALL RIGHTS RESERVED Fractal Phase Games Corporation 2013-2017",
@@ -27,6 +28,9 @@
 	"menu_options_resolution" : "Resolution",
 	"menu_options_fullscreen" : "Fullscreen",
 	"menu_options_vsync" : "VSync",
+	"menu_options_display" : "Display",
+	"menu_options_low_graphics" : "Low Quality",
+	"menu_options_vertical_splitscreen" : "Vertical Splitscreen",
 	"mouse_sensitivity" : "Mouse Sens.",
 	"look_sensitivity" : "Look Sens.",
 	"deadzone" : "Deadzone",
@@ -52,6 +56,7 @@
 	"aeropedia" : "Aeropedia",
 	
 	"final_day" : "Final Day",
+	"x_island" : "{0} Island",
 	
 	"kills" : "KILLS",
 	"killed_by" : "Killed By",
@@ -75,12 +80,15 @@
 	"mission" : "Mission",
 	"target" : "target",
 	
+	"research" : "Research",
+	
 	"// in-flight HUD" : "",
 	"base" : "BASE",
 	"altitude" : "altitude",
 	"speed" : "speed",
 	"range" : "range",
 	
+	"reinforcements" : "INCOMING REINFORCEMENTS",
 	"enemy_lock" : "ENEMY LOCK",
 	"incoming" : "-INCOMING-",
 	"stall" : "--- STALL ---",
@@ -91,6 +99,9 @@
 	"restart" : "restart",
 	
 	"land" : "land",
+	
+	"warning" : "WARNING",
+	"game_mode_change_confirm" : "Starting an Endless game while you have upgrades in the Campaign will remove your upgrades (and vice versa)! Are you sure?",
 	
 	"// tutorial" : "",
 	"choose_control_method" : "choose control method",
