@@ -1,7 +1,9 @@
 {
+	"// instructions" : "ignore character sequences like {0}, {1}, etc. Preserve capitalization (ex: 'mission complete' or 'COST') ",
+	
+	"language_name" : "English",
 	"starting_up" : "Starting up...",
-	"press_start" : "press SPACEBAR or (A) BUTTON",
-	"do_not_distribute" : "DO NOT DISTRIBUTE",
+	"press_start" : "press",
 	"copyright" : "ALL RIGHTS RESERVED Fractal Phase Games Corporation 2013-2017",
 	"singleplayer" : "Singleplayer",
 	"multiplayer_splitscreen" : "Multiplayer (Splitscreen)",
@@ -24,6 +26,7 @@
 	"co-op_campaign" : "Co-op Campaign",
 	
 	"menu_options_controls" : "Controls",
+	"menu_options_rebind_controls" : "Rebind Controls",
 	"menu_options_video" : "Video",
 	"menu_options_resolution" : "Resolution",
 	"menu_options_fullscreen" : "Fullscreen",
@@ -49,6 +52,7 @@
 	
 	"menu_io_loading" : "Loading...",
 	
+	"// carrier menu" : "",
 	"operation_x" : "Operation {0}",
 	"launch" : "LAUNCH",
 	"loadout" : "Loadout",
@@ -61,6 +65,8 @@
 	"kills" : "KILLS",
 	"killed_by" : "Killed By",
     "deaths": "Deaths",
+	"stats" : "stats",
+	"rewards" : "rewards",
     "time": "Time",
     "day_x": "Day {0}",
     "endless_day_x" : "Endless Day {0}",
@@ -74,8 +80,20 @@
 	"cost" : "COST",
 	
 	"aero_stats" : "Durability\nSpeed\nManeuver\nAcceleration",
+	"weapon_stats" : "Ammo:   {0}\nDamage:   {1}\nRange:   {2}\nSpeed:   {3}\nReload:   {4}s",
+	"aero" : "aero",
+	"weapons" : "weapons",
+	"special" : "special",
+	"skin" : "skin",
 	"payload" : "Payload",
 	"avionics" : "Avionics",
+	"unguided" : "Unguided",
+	"air_to_air" : "Air to Air",
+	"air_to_ground" : "Air to Ground",
+	"air_to_both" : "All Targets",
+	"infrared" : "Infrared",
+	"fireandforget" : "Fire and Forget",
+	"semiactive" : "Semi-Active",
 	
 	"mission" : "Mission",
 	"target" : "target",
@@ -93,12 +111,19 @@
 	"incoming" : "-INCOMING-",
 	"stall" : "--- STALL ---",
 	"pull_up" : "<quad material=1 size=100/> PULL UP <quad material=1 size=100/>",
+	"added_to_aeropedia" : "{0} added to Aeropedia!",
+	
+	"mission_reticle" : "MISSION",
+	"base_reticle" : "BASE",
 	
 	"you_died" : "you died",
 	"mission_complete" : "mission complete",
 	"restart" : "restart",
 	
 	"land" : "land",
+	"repair_rearm" : "repair + rearm",
+	
+	"paused" : "paused",
 	
 	"warning" : "WARNING",
 	"game_mode_change_confirm" : "Starting an Endless game while you have upgrades in the Campaign will remove your upgrades (and vice versa)! Are you sure?",
@@ -108,21 +133,23 @@
 	"or" : "OR",
 	"arcade_controls" : "Arcade Controls",
 	"simulator_controls" : "Simulator Controls",
-	"arcade_blurb" : "X-axis banks left and right, camera never rolls. Good for mouse + keyboard",
-	"simulator_blurb" : "X-axis rolls left and right. Best for flight sim fans",
+	"arcade_blurb" : "X-axis banks left and right, camera never rolls. Good for mouse + keyboard.",
+	"simulator_blurb" : "X-axis rolls left and right. Best for flight sim fans.",
 	"you_can_change_your_mind" : "You can change your mind later.\nEnable or disable 'Arcade Controls'\nin the Options -> Controls menu",
 	"tutorial_move" : "Steer the aircraft in all directions.\nRoll to the left and right,\nand pitch up and down",
 	"tutorial_throttle" : "Speed up and slow down the aircraft.\nGo to maximum and minimum throttle.\n\nTurning is slower at high speed,\nbut faster at low speed.",
 	"tutorial_look" : "Situational awareness is key,\ntake a look around.",
-	"tutorial_shoot" : "Shoot down the target drone.\nFly into range (500 or less) and wait for a lock-on\nWhen locked, fire your missiles!",
+	"tutorial_shoot" : "Shoot down the target drone. Fly into range (500 or less) and wait for a lock-on. When locked, fire your missiles!",
 	"tutorial_target" : "You will often engage several hostiles at once.\nTarget the second enemy aero.",
 	"tutorial_focus" : "It's easier to pursue a target\nif you track it.\nToggle tracking on and off.",
 	"tutorial_drone" : "Shoot down the drones!",
 	"tutorial_special" : "Your aero can equip a special ability\nYou currently have countermeasure flares\nthat distract enemy missiles\nFire a flare now.",
-	"tutorial_weapon" : "Your aero is armed with multiple weapons.\nHold the button to show the weapon selector\nChoose 'RKT' with the mouse or stick\nThen release",
+	"tutorial_dodge" : "Your aero can dodge to avoid incoming fire. Roll or yaw in the direction you want to dodge, then press the dodge button.",
+	"tutorial_weapon" : "Your aero is armed with multiple weapons.\nChoose 'RKT' now.",
 	"tutorial_command" : "Each island has a primary target\nDestroying it is your main objective!\nFind and destroy the one on this island.",
 	"tutorial_end" : "Land at the carrier after destroying\nthe objective to proceed to the next island.\nYou can also land to repair and rearm.",
-		
+	
+	"operation_success" : "{0}:\nSUCCESS",
 	"credits.thanks.you" : "Thank you for playing",
 	
 	"//end" : ""
