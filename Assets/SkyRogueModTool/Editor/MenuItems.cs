@@ -22,7 +22,7 @@ public class MenuItems
         }
 
         BuildPipeline.BuildAssetBundles(buildPath + "win/", BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows);
-        BuildPipeline.BuildAssetBundles(buildPath + "mac/", BuildAssetBundleOptions.None, BuildTarget.StandaloneOSXUniversal);
+        BuildPipeline.BuildAssetBundles(buildPath + "mac/", BuildAssetBundleOptions.None, BuildTarget.StandaloneOSX);
         BuildPipeline.BuildAssetBundles(buildPath + "lin/", BuildAssetBundleOptions.None, BuildTarget.StandaloneLinuxUniversal);
     }
 
