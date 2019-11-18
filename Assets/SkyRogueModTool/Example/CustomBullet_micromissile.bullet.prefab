@@ -328,7 +328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21828ba10f7d30e4a83c43345e2f76b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boomPrefab: {fileID: 0}
+  boomPrefab: {fileID: 100000, guid: 0bc1b6559a057e14fa70f418071a00d9, type: 2}
   team: 0
   damage: 20
   speed: 9000
