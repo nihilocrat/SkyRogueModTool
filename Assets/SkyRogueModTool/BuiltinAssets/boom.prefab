@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 19800000}
   - component: {fileID: 19900000}
   - component: {fileID: 11400000}
-  - component: {fileID: 11400002}
   - component: {fileID: 8200000}
   - component: {fileID: 11400004}
   m_Layer: 0
@@ -126,19 +125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fa0d56b87cf22e4b90d60cd92cfb1fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7309cb16dc40c604789208ea9be5b83d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  magnitude: 0.5
-  radius: 10
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -156,7 +142,7 @@ MonoBehaviour:
   minPitch: 0.8
   maxPitch: 1.2
   audioClips:
-  - {fileID: 8300000, guid: b229eac2cbb5b5e4e92355072a6d2c62, type: 3}
+  - {fileID: 8300000, guid: e04da54e0e412b9418052d19e949c1e0, type: 3}
 --- !u!198 &19800000
 ParticleSystem:
   m_ObjectHideFlags: 1
