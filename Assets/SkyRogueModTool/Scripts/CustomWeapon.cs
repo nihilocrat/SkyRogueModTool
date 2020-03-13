@@ -15,6 +15,7 @@ public class CustomWeapon : MonoBehaviour
     public Texture2D outerTargetConeTexture;
     public GameObject targetConePrefab;
     public GameObject outerTargetConePrefab;
+    public GameObject fireEffectPrefab;
     public Vector3 addedRotation = Vector3.zero;
     public bool isGun = false;
 }
