@@ -7,7 +7,7 @@ public enum GuidanceMethod
     None = 0,
     FireAndForget, // missile is given a target and guides itself
     SemiActive,    // owner needs to maintain radar contact with the target
-    Infared,       // missile is given a target and guides itself, but only locks on when behind the target
+    Infrared,       // missile is given a target and guides itself, but only locks on when behind the target
     AntiRadar,	   // missile can find target itself; will lock onto the closest enemy active radar signature
     Camera,        // guided with the right stick
     CameraMark     // guided towards camera look target at launch time (doesn't guide in realtime)
@@ -32,4 +32,5 @@ public class CustomGuidedMissile : MonoBehaviour
     public float wander = 0.0f;
     public bool autoLock = false;                   // missiles automatically lock on to the closest target, necessary for MIRVs
     public bool dontKillWhenLostTarget = false;     // important for guided bombs
+    public bool isGuidedBomb = false;               // is this a guided bomb?
 }
